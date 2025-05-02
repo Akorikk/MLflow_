@@ -14,8 +14,7 @@ import mlflow.sklearn
 import dagshub
 import logging
 
-
-dagshub.init(repo_owner='bappymalik4161', repo_name='mlflow-test', mlflow=True)
+dagshub.init(repo_owner='Akorikk', repo_name='MLflow_', mlflow=True)
 
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
@@ -80,7 +79,7 @@ if __name__ == "__main__":
 
         
         # For remote server only (Dagshub)
-        remote_server_uri = "https://dagshub.com/bappymalik4161/mlflow-test.mlflow"
+        remote_server_uri = "https://dagshub.com/Akorikk/MLflow_.mlflow"
         mlflow.set_tracking_uri(remote_server_uri)
 
 

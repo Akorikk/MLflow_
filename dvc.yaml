@@ -1,0 +1,13 @@
+stages:
+  stage_01:
+    cmd: python pipeline/stage_01.py
+
+
+  stage_02:
+    cmd: python pipeline/stage_02.py
+    outs:
+     - artifict/output.txt
+    
+  stage_02:
+    cmd: python pipeline/stage_03.py
+    
